@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="SimpleBrowser_CB6.exe"/>
+    <OBJFILES value="SimpleBrowser_CB6.obj uSimpleBrowser.obj"/>
+    <RESFILES value="SimpleBrowser_CB6.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) uSimpleBrowser.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="WebView4Delphi.lib TntLibR.lib frxTee6.lib dxExRwC6.lib dxPSPrVwAdvC6.lib 
+      dxPScxExtCommonC6.lib dxPSdxOILnkC6.lib dxPSdxLCLnkC6.lib 
+      dxPSdxInsLnkC6.lib dxPSdxDBTLLnkC6.lib dxPSTLLnkC6.lib 
+      dxPSdxDBCtrlLnkC6.lib dxPSdxDBGrLnkC6.lib dxPScxVGridLnkC6.lib 
+      dxPScxTLLnkC6.lib dxPScxSSLnkc6.lib dxPScxPivotGridLnkC6.lib 
+      dxPScxPCProdC6.lib dxPScxGrid6Lnkc6.lib dxPScxCommonC6.lib 
+      dxLayoutControldxEditAdaptersC6.lib dxLayoutControlcxEditAdaptersC6.lib 
+      cxBarEditItemC6.lib dxObjInsC6.lib dxInsC6.lib dxGrEdC6.lib dxExELC6.lib 
+      EQGridC6.lib EQDBTLC6.lib EQTLC6.lib ECQDBCC6.lib dxELibC6.lib 
+      dxDBEdC6.lib dxEdtrC6.lib dxPSDBTeeChartC6.lib dxPSLnksC6.lib 
+      dxPSTeeChartC6.lib dxPSCorec6.lib dxsbC6.lib cxSpreadSheetVCLC6.lib 
+      dxmdsC6.lib cxPivotGridC6.lib cxVerticalGridVCLC6.lib 
+      dxLayoutControlC6.lib cxTreeListVCLC6.lib cxExportVCLC6.lib cxGridC6.lib 
+      cxExtEditorsVCLC6.lib cxDataC6.lib cxEditorsVCLC6.lib 
+      cxPageControlVCLC6.lib dxRibbonC6.lib dxBarExtItemsC6.lib 
+      dxBarExtDBItemsC6.lib dxBarDBNavC6.lib dxBarC6.lib dxComnC6.lib 
+      dxDockingC6.lib madExcept_.lib madDisAsm_.lib madBasic_.lib"/>
+    <SPARELIBS value="rtl.lib vcldb.lib adortl.lib bdertl.lib vcldbx.lib cds.lib bdecds.lib 
+      qrpt.lib visualdbclx.lib dsnapcrba.lib dsnapcon.lib bcbsmp.lib 
+      inetdbbde.lib inetdbxpress.lib dbexpress.lib nmfast.lib bcbie.lib 
+      soaprtl.lib dclocx.lib dbxcds.lib indy.lib bcb2kaxserver.lib FSIBX6.lib 
+      ibxpress.lib FS6.lib FSDB6.lib teeui.lib teedb.lib tee.lib dss.lib 
+      teeqr.lib ZBldr192C6.lib madBasic_.lib madDisAsm_.lib madExcept_.lib 
+      dxCoreC6.lib cxLibraryVCLC6.lib dxThemeC6.lib dxGDIPlusC6.lib 
+      dxDockingC6.lib dxComnC6.lib dxBarC6.lib dxBarDBNavC6.lib 
+      dxBarExtDBItemsC6.lib dxBarExtItemsC6.lib dxRibbonC6.lib 
+      cxPageControlVCLC6.lib cxEditorsVCLC6.lib cxDataC6.lib 
+      cxExtEditorsVCLC6.lib cxGridC6.lib cxExportVCLC6.lib cxTreeListVCLC6.lib 
+      dxLayoutControlC6.lib cxVerticalGridVCLC6.lib cxPivotGridC6.lib 
+      dxmdsC6.lib cxSpreadSheetVCLC6.lib dxsbC6.lib dxPSCorec6.lib 
+      dxPSTeeChartC6.lib dxPSLnksC6.lib dxPSDBTeeChartC6.lib dxEdtrC6.lib 
+      dxDBEdC6.lib dxELibC6.lib ECQDBCC6.lib EQTLC6.lib EQDBTLC6.lib 
+      EQGridC6.lib dxExELC6.lib dxGrEdC6.lib dxInsC6.lib dxObjInsC6.lib 
+      cxBarEditItemC6.lib dxLayoutControlcxEditAdaptersC6.lib 
+      dxLayoutControldxEditAdaptersC6.lib dxPScxCommonC6.lib 
+      dxPScxGrid6Lnkc6.lib dxPScxPCProdC6.lib dxPScxPivotGridLnkC6.lib 
+      dxPScxSSLnkc6.lib dxPScxTLLnkC6.lib dxPScxVGridLnkC6.lib 
+      dxPSdxDBGrLnkC6.lib dxPSdxDBCtrlLnkC6.lib dxPSTLLnkC6.lib 
+      dxPSdxDBTLLnkC6.lib dxPSdxInsLnkC6.lib dxPSdxLCLnkC6.lib dxPSdxOILnkC6.lib 
+      dxPScxExtCommonC6.lib dxPSPrVwAdvC6.lib dxExRwC6.lib frx6.lib frxADO6.lib 
+      frxDB6.lib fqb60.lib FSADO6.lib frxBDE6.lib FSBDE6.lib frxDBX6.lib 
+      frxe6.lib frxIBX6.lib frxTee6.lib FSTee6.lib TntLibR.lib WebView4Delphi.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi FS6.bpi frx6.bpi FSDB6.bpi frxDB6.bpi fqb60.bpi 
+      FSBDE6.bpi frxBDE6.bpi FSADO6.bpi frxADO6.bpi frxIBX6.bpi FSIBX6.bpi 
+      frxDBX6.bpi frxe6.bpi FSTee6.bpi ZBldr192C6.bpi dxCoreC6.bpi 
+      cxLibraryVCLC6.bpi dxThemeC6.bpi dxGDIPlusC6.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="SimpleBrowser_CB6.cpp"/>
+    <INCLUDEPATH value="$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl;$(DXVCL)\Library\CBuilder6;D:\Components\VCL\WebView4Delphi\WebView4Delphi\source"/>
+    <LIBPATH value="..\..\..\..\..\madCollection\madExcept\BCB6;..\..\..\..\..\madCollection\madDisAsm\BCB6;..\..\..\..\..\madCollection\madBasic\BCB6;..\..\..\..\..\DxVCL\CB6\Library\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\debug;$(BCB)\Bin;$(BCB)\lib\obj;$(BCB)\lib;D:\Components\VCL\WebView4Delphi\WebView4Delphi\source;$(BCB)\lib\psdk"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\Bin -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I$(DXVCL)\Library\CBuilder6 
+      -ID:\Components\VCL\WebView4Delphi\WebView4Delphi\source -src_suffix cpp 
+      -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="SimpleBrowser_CB6.res" FORMNAME="" UNITNAME="SimpleBrowser_CB6.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SimpleBrowser_CB6.cpp" FORMNAME="" UNITNAME="SimpleBrowser_CB6" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="uSimpleBrowser.pas" FORMNAME="MainForm" UNITNAME="uSimpleBrowser" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1031
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\bin\dclClxIBXtras60.bpl=Borland InterBase Express Extras (Clx)
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl;$(DXVCL)\Library\CBuilder6;D:\Components\VCL\WebView4Delphi\WebView4Delphi\source
+Item1=$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl;$(DXVCL)\Library\CBuilder6
+Item2=$(BCB)\include;$(BCB)\include\vcl;$(DXVCL)\Library\CBuilder6
+Item3=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=4
+Item0=..\..\..\..\..\madCollection\madExcept\BCB6;..\..\..\..\..\madCollection\madDisAsm\BCB6;..\..\..\..\..\madCollection\madBasic\BCB6;..\..\..\..\..\DxVCL\CB6\Library\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\debug;$(BCB)\Bin;$(BCB)\lib\obj;$(BCB)\lib;D:\Components\VCL\WebView4Delphi\WebView4Delphi\source;$(BCB)\lib\psdk
+Item1=..\..\..\..\..\madCollection\madExcept\BCB6;..\..\..\..\..\madCollection\madDisAsm\BCB6;..\..\..\..\..\madCollection\madBasic\BCB6;..\..\..\..\..\DxVCL\CB6\Library\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\debug;$(BCB)\Bin;$(BCB)\lib\obj;$(BCB)\lib;D:\Components\VCL\WebView4Delphi\WebView4Delphi\source
+Item2=..\..\..\..\..\madCollection\madExcept\BCB6;..\..\..\..\..\madCollection\madDisAsm\BCB6;..\..\..\..\..\madCollection\madBasic\BCB6;..\..\..\..\..\DxVCL\CB6\Library\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\lib\debug;$(BCB)\Bin;$(BCB)\lib\obj;$(BCB)\lib
+Item3=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

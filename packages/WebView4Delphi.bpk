@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="WebView4Delphi.bpl"/>
+    <OBJFILES value="WebView4Delphi.obj WebView4DelphiVCL_register.obj 
+      ..\source\uWVConstants.obj ..\source\uWVBrowser.obj 
+      ..\source\uWVCoreWebView2.obj ..\source\uWVCoreWebView2Controller.obj 
+      ..\source\uWVCoreWebView2Environment.obj 
+      ..\source\uWVCoreWebView2Settings.obj ..\source\uWVInterfaces.obj 
+      ..\source\uWVLibFunctions.obj ..\source\uWVLoader.obj 
+      ..\source\uWVMiscFunctions.obj ..\source\uWVTypeLibrary.obj 
+      ..\source\uWVTypes.obj ..\source\uWVWinControl.obj 
+      ..\source\uWVWindowParent.obj ..\source\uWVCoreWebView2Args.obj 
+      ..\source\uWVCoreWebView2ClientCertificate.obj 
+      ..\source\uWVCoreWebView2ClientCertificateCollection.obj 
+      ..\source\uWVCoreWebView2CompositionController.obj 
+      ..\source\uWVCoreWebView2Cookie.obj 
+      ..\source\uWVCoreWebView2CookieList.obj ..\source\uWVCoreWebView2CookieManager.obj 
+      ..\source\uWVCoreWebView2Deferral.obj 
+      ..\source\uWVCoreWebView2Delegates.obj 
+      ..\source\uWVCoreWebView2EnvironmentOptions.obj 
+      ..\source\uWVCoreWebView2FrameInfo.obj 
+      ..\source\uWVCoreWebView2FrameInfoCollection.obj 
+      ..\source\uWVCoreWebView2FrameInfoCollectionIterator.obj 
+      ..\source\uWVCoreWebView2HttpHeadersCollectionIterator.obj 
+      ..\source\uWVCoreWebView2HttpRequestHeaders.obj 
+      ..\source\uWVCoreWebView2PointerInfo.obj 
+      ..\source\uWVCoreWebView2PrintSettings.obj 
+      ..\source\uWVCoreWebView2StringCollection.obj 
+      ..\source\uWVCoreWebView2WebResourceRequest.obj 
+      ..\source\uWVCoreWebView2WebResourceResponse.obj 
+      ..\source\uWVCoreWebView2WebResourceResponseView.obj 
+      ..\source\uWVEvents.obj ..\source\uWVBrowserBase.obj 
+      ..\source\uWVCoreWebView2BasicAuthenticationResponse.obj 
+      ..\source\uWVCoreWebView2BrowserExtension.obj 
+      ..\source\uWVCoreWebView2BrowserExtensionList.obj 
+      ..\source\uWVCoreWebView2Certificate.obj 
+      ..\source\uWVCoreWebView2ContextMenuItem.obj 
+      ..\source\uWVCoreWebView2ContextMenuItemCollection.obj 
+      ..\source\uWVCoreWebView2ContextMenuTarget.obj 
+      ..\source\uWVCoreWebView2ControllerOptions.obj 
+      ..\source\uWVCoreWebView2CustomSchemeRegistration.obj 
+      ..\source\uWVCoreWebView2DownloadOperation.obj 
+      ..\source\uWVCoreWebView2ExecuteScriptResult.obj 
+      ..\source\uWVCoreWebView2File.obj 
+      ..\source\uWVCoreWebView2FileSystemHandle.obj 
+      ..\source\uWVCoreWebView2Frame.obj 
+      ..\source\uWVCoreWebView2HttpResponseHeaders.obj 
+      ..\source\uWVCoreWebView2Notification.obj 
+      ..\source\uWVCoreWebView2ObjectCollection.obj 
+      ..\source\uWVCoreWebView2ObjectCollectionView.obj 
+      ..\source\uWVCoreWebView2PermissionSetting.obj 
+      ..\source\uWVCoreWebView2PermissionSettingCollectionView.obj 
+      ..\source\uWVCoreWebView2ProcessExtendedInfo.obj 
+      ..\source\uWVCoreWebView2ProcessExtendedInfoCollection.obj 
+      ..\source\uWVCoreWebView2ProcessInfo.obj 
+      ..\source\uWVCoreWebView2ProcessInfoCollection.obj 
+      ..\source\uWVCoreWebView2Profile.obj 
+      ..\source\uWVCoreWebView2RegionRectCollectionView.obj 
+      ..\source\uWVCoreWebView2ScriptException.obj 
+      ..\source\uWVCoreWebView2SharedBuffer.obj 
+      ..\source\uWVCoreWebView2WindowFeatures.obj ..\source\uWVLoaderInternal.obj"/>
+    <RESFILES value="WebView4Delphi.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="TntLibR.lib FSTee6.lib frxTee6.lib frxIBX6.lib frxe6.lib frxDBX6.lib 
+      FSBDE6.lib frxBDE6.lib FSADO6.lib fqb60.lib frxDB6.lib frxADO6.lib 
+      frx6.lib dxExRwC6.lib dxPSPrVwAdvC6.lib dxPScxExtCommonC6.lib 
+      dxPSdxOILnkC6.lib dxPSdxLCLnkC6.lib dxPSdxInsLnkC6.lib dxPSdxDBTLLnkC6.lib 
+      dxPSTLLnkC6.lib dxPSdxDBCtrlLnkC6.lib dxPSdxDBGrLnkC6.lib 
+      dxPScxVGridLnkC6.lib dxPScxTLLnkC6.lib dxPScxSSLnkc6.lib 
+      dxPScxPivotGridLnkC6.lib dxPScxPCProdC6.lib dxPScxGrid6Lnkc6.lib 
+      dxPScxCommonC6.lib dxLayoutControldxEditAdaptersC6.lib 
+      dxLayoutControlcxEditAdaptersC6.lib cxBarEditItemC6.lib dxObjInsC6.lib 
+      dxInsC6.lib dxGrEdC6.lib dxExELC6.lib EQGridC6.lib EQDBTLC6.lib EQTLC6.lib 
+      ECQDBCC6.lib dxELibC6.lib dxDBEdC6.lib dxEdtrC6.lib dxPSDBTeeChartC6.lib 
+      dxPSLnksC6.lib dxPSTeeChartC6.lib dxPSCorec6.lib dxsbC6.lib 
+      cxSpreadSheetVCLC6.lib dxmdsC6.lib cxPivotGridC6.lib 
+      cxVerticalGridVCLC6.lib dxLayoutControlC6.lib cxTreeListVCLC6.lib 
+      cxExportVCLC6.lib cxGridC6.lib cxExtEditorsVCLC6.lib cxDataC6.lib 
+      cxEditorsVCLC6.lib cxPageControlVCLC6.lib dxRibbonC6.lib 
+      dxBarExtItemsC6.lib dxBarExtDBItemsC6.lib dxBarDBNavC6.lib dxBarC6.lib 
+      dxComnC6.lib dxDockingC6.lib dxGDIPlusC6.lib dxThemeC6.lib 
+      cxLibraryVCLC6.lib dxCoreC6.lib madExcept_.lib madDisAsm_.lib 
+      madBasic_.lib ZBldr192C6.lib teeqr.lib dss.lib tee.lib teedb.lib teeui.lib 
+      FSDB6.lib FS6.lib ibxpress.lib FSIBX6.lib bcb2kaxserver.lib indy.lib 
+      dbxcds.lib dclocx.lib soaprtl.lib nmfast.lib dbexpress.lib 
+      inetdbxpress.lib inetdbbde.lib dsnapcon.lib dsnapcrba.lib visualdbclx.lib 
+      qrpt.lib bdecds.lib cds.lib vcldbx.lib bdertl.lib adortl.lib vcldb.lib"/>
+    <SPARELIBS value="rtl.lib vcldb.lib adortl.lib bdertl.lib vcldbx.lib cds.lib bdecds.lib 
+      qrpt.lib visualdbclx.lib dsnapcrba.lib dsnapcon.lib bcbsmp.lib 
+      inetdbbde.lib inetdbxpress.lib dbexpress.lib nmfast.lib bcbie.lib 
+      soaprtl.lib dclocx.lib dbxcds.lib indy.lib bcb2kaxserver.lib FSIBX6.lib 
+      ibxpress.lib FS6.lib FSDB6.lib teeui.lib teedb.lib tee.lib dss.lib 
+      teeqr.lib ZBldr192C6.lib madBasic_.lib madDisAsm_.lib madExcept_.lib 
+      dxCoreC6.lib cxLibraryVCLC6.lib dxThemeC6.lib dxGDIPlusC6.lib 
+      dxDockingC6.lib dxComnC6.lib dxBarC6.lib dxBarDBNavC6.lib 
+      dxBarExtDBItemsC6.lib dxBarExtItemsC6.lib dxRibbonC6.lib 
+      cxPageControlVCLC6.lib cxEditorsVCLC6.lib cxDataC6.lib 
+      cxExtEditorsVCLC6.lib cxGridC6.lib cxExportVCLC6.lib cxTreeListVCLC6.lib 
+      dxLayoutControlC6.lib cxVerticalGridVCLC6.lib cxPivotGridC6.lib 
+      dxmdsC6.lib cxSpreadSheetVCLC6.lib dxsbC6.lib dxPSCorec6.lib 
+      dxPSTeeChartC6.lib dxPSLnksC6.lib dxPSDBTeeChartC6.lib dxEdtrC6.lib 
+      dxDBEdC6.lib dxELibC6.lib ECQDBCC6.lib EQTLC6.lib EQDBTLC6.lib 
+      EQGridC6.lib dxExELC6.lib dxGrEdC6.lib dxInsC6.lib dxObjInsC6.lib 
+      cxBarEditItemC6.lib dxLayoutControlcxEditAdaptersC6.lib 
+      dxLayoutControldxEditAdaptersC6.lib dxPScxCommonC6.lib 
+      dxPScxGrid6Lnkc6.lib dxPScxPCProdC6.lib dxPScxPivotGridLnkC6.lib 
+      dxPScxSSLnkc6.lib dxPScxTLLnkC6.lib dxPScxVGridLnkC6.lib 
+      dxPSdxDBGrLnkC6.lib dxPSdxDBCtrlLnkC6.lib dxPSTLLnkC6.lib 
+      dxPSdxDBTLLnkC6.lib dxPSdxInsLnkC6.lib dxPSdxLCLnkC6.lib dxPSdxOILnkC6.lib 
+      dxPScxExtCommonC6.lib dxPSPrVwAdvC6.lib dxExRwC6.lib frx6.lib frxADO6.lib 
+      frxDB6.lib fqb60.lib FSADO6.lib frxBDE6.lib FSBDE6.lib frxDBX6.lib 
+      frxe6.lib frxIBX6.lib frxTee6.lib FSTee6.lib TntLibR.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclsmp.bpi vclx.bpi bcbsmp.bpi bcbie.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;..\source"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="WebView4Delphi.cpp"/>
+    <INCLUDEPATH value="..\source;$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\..\..\DxVCL\CB6\Library\CBuilder6;..\..\..\madCollection\madExcept\BCB6;..\..\..\madCollection\madDisAsm\BCB6;..\..\..\madCollection\madBasic\BCB6;$(BCB)\Projects\Lib;$(BCB)\lib\debug;..\source;$(BCB)\Bin;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Lib\Psdk"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\source -I$(BCB)\Bin -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix 
+      cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;WebView4Delphi&quot; -aa -Tpp -x -Gn -Gl -Gi -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="WebView4Delphi.res" FORMNAME="" UNITNAME="WebView4Delphi.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WebView4Delphi.cpp" FORMNAME="" UNITNAME="WebView4Delphi" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="c:\develop\borland\cb6\lib\debug\vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WebView4DelphiVCL_register.pas" FORMNAME="" UNITNAME="WebView4DelphiVCL_register" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVConstants.pas" FORMNAME="" UNITNAME="uWVConstants" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVBrowser.pas" FORMNAME="" UNITNAME="uWVBrowser" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2.pas" FORMNAME="" UNITNAME="uWVCoreWebView2" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Controller.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Controller" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Environment.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Environment" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Settings.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Settings" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVInterfaces.pas" FORMNAME="" UNITNAME="uWVInterfaces" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVLibFunctions.pas" FORMNAME="" UNITNAME="uWVLibFunctions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVLoader.pas" FORMNAME="" UNITNAME="uWVLoader" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVMiscFunctions.pas" FORMNAME="" UNITNAME="uWVMiscFunctions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVTypeLibrary.pas" FORMNAME="" UNITNAME="uWVTypeLibrary" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVTypes.pas" FORMNAME="" UNITNAME="uWVTypes" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVWinControl.pas" FORMNAME="" UNITNAME="uWVWinControl" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVWindowParent.pas" FORMNAME="" UNITNAME="uWVWindowParent" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Args.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Args" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ClientCertificate.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ClientCertificate" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ClientCertificateCollection.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ClientCertificateCollection" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2CompositionController.pas" FORMNAME="" UNITNAME="uWVCoreWebView2CompositionController" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Cookie.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Cookie" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2CookieList.pas" FORMNAME="" UNITNAME="uWVCoreWebView2CookieList" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2CookieManager.pas" FORMNAME="" UNITNAME="uWVCoreWebView2CookieManager" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Deferral.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Deferral" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Delegates.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Delegates" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2EnvironmentOptions.pas" FORMNAME="" UNITNAME="uWVCoreWebView2EnvironmentOptions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2FrameInfo.pas" FORMNAME="" UNITNAME="uWVCoreWebView2FrameInfo" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2FrameInfoCollection.pas" FORMNAME="" UNITNAME="uWVCoreWebView2FrameInfoCollection" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2FrameInfoCollectionIterator.pas" FORMNAME="" UNITNAME="uWVCoreWebView2FrameInfoCollectionIterator" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2HttpHeadersCollectionIterator.pas" FORMNAME="" UNITNAME="uWVCoreWebView2HttpHeadersCollectionIterator" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2HttpRequestHeaders.pas" FORMNAME="" UNITNAME="uWVCoreWebView2HttpRequestHeaders" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2PointerInfo.pas" FORMNAME="" UNITNAME="uWVCoreWebView2PointerInfo" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2PrintSettings.pas" FORMNAME="" UNITNAME="uWVCoreWebView2PrintSettings" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2StringCollection.pas" FORMNAME="" UNITNAME="uWVCoreWebView2StringCollection" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2WebResourceRequest.pas" FORMNAME="" UNITNAME="uWVCoreWebView2WebResourceRequest" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2WebResourceResponse.pas" FORMNAME="" UNITNAME="uWVCoreWebView2WebResourceResponse" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2WebResourceResponseView.pas" FORMNAME="" UNITNAME="uWVCoreWebView2WebResourceResponseView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVEvents.pas" FORMNAME="" UNITNAME="uWVEvents" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVBrowserBase.pas" FORMNAME="" UNITNAME="uWVBrowserBase" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2BasicAuthenticationResponse.pas" FORMNAME="" UNITNAME="uWVCoreWebView2BasicAuthenticationResponse" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2BrowserExtension.pas" FORMNAME="" UNITNAME="uWVCoreWebView2BrowserExtension" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2BrowserExtensionList.pas" FORMNAME="" UNITNAME="uWVCoreWebView2BrowserExtensionList" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Certificate.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Certificate" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ContextMenuItem.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ContextMenuItem" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ContextMenuItemCollection.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ContextMenuItemCollection" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ContextMenuTarget.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ContextMenuTarget" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ControllerOptions.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ControllerOptions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2CustomSchemeRegistration.pas" FORMNAME="" UNITNAME="uWVCoreWebView2CustomSchemeRegistration" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2DownloadOperation.pas" FORMNAME="" UNITNAME="uWVCoreWebView2DownloadOperation" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ExecuteScriptResult.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ExecuteScriptResult" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2File.pas" FORMNAME="" UNITNAME="uWVCoreWebView2File" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2FileSystemHandle.pas" FORMNAME="" UNITNAME="uWVCoreWebView2FileSystemHandle" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Frame.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Frame" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2HttpResponseHeaders.pas" FORMNAME="" UNITNAME="uWVCoreWebView2HttpResponseHeaders" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Notification.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Notification" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ObjectCollection.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ObjectCollection" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ObjectCollectionView.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ObjectCollectionView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2PermissionSetting.pas" FORMNAME="" UNITNAME="uWVCoreWebView2PermissionSetting" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2PermissionSettingCollectionView.pas" FORMNAME="" UNITNAME="uWVCoreWebView2PermissionSettingCollectionView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ProcessExtendedInfo.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ProcessExtendedInfo" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ProcessExtendedInfoCollection.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ProcessExtendedInfoCollection" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ProcessInfo.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ProcessInfo" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ProcessInfoCollection.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ProcessInfoCollection" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2Profile.pas" FORMNAME="" UNITNAME="uWVCoreWebView2Profile" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2RegionRectCollectionView.pas" FORMNAME="" UNITNAME="uWVCoreWebView2RegionRectCollectionView" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2ScriptException.pas" FORMNAME="" UNITNAME="uWVCoreWebView2ScriptException" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2SharedBuffer.pas" FORMNAME="" UNITNAME="uWVCoreWebView2SharedBuffer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVCoreWebView2WindowFeatures.pas" FORMNAME="" UNITNAME="uWVCoreWebView2WindowFeatures" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\source\uWVLoaderInternal.pas" FORMNAME="" UNITNAME="uWVLoaderInternal" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="c:\develop\borland\cb6\lib\debug\vclsmp.bpi" FORMNAME="" UNITNAME="vclsmp" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="c:\develop\borland\cb6\lib\debug\vclx.bpi" FORMNAME="" UNITNAME="vclx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bcbsmp.bpi" FORMNAME="" UNITNAME="bcbsmp" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bcbie.bpi" FORMNAME="" UNITNAME="bcbie" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1031
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\bin\dclClxIBXtras60.bpl=Borland InterBase Express Extras (Clx)
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=..\source;$(BCB)\Bin;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=..\..\..\DxVCL\CB6\Library\CBuilder6;..\..\..\madCollection\madExcept\BCB6;..\..\..\madCollection\madDisAsm\BCB6;..\..\..\madCollection\madBasic\BCB6;$(BCB)\Projects\Lib;$(BCB)\lib\debug;..\source;$(BCB)\Bin;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Lib\Psdk
+Item1=..\..\..\DxVCL\CB6\Library\CBuilder6;..\..\..\madCollection\madExcept\BCB6;..\..\..\madCollection\madDisAsm\BCB6;..\..\..\madCollection\madBasic\BCB6;$(BCB)\Projects\Lib;$(BCB)\lib\debug;..\source;$(BCB)\Bin;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>
