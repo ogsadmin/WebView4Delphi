@@ -76,3 +76,8 @@ bin64/CustomCache
 
 # Resource files
 demos/**/*.res
+
+# tms smartsetup output
+packages/22.0
+packages/23.0
+packages/24.0
